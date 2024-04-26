@@ -47,7 +47,7 @@
 
 .header__intro-block {
   max-width: 585px;
-  margin: 286px 0 0 108px;
+  margin: 265px 0 0 108px;
 }
 .header__intro-text {
   margin: 0 0 40px 0;
@@ -75,12 +75,33 @@
   background-color: #222;
 }
 
+.header__github-button {
+  background-image: url(../images/header_github.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  height: 54px;
+  width: 54px;
+  border-radius: 100px;
+  background-color: #222;
+}
+
 .header__headshot {
   position: absolute;
   max-width: 515px;
   border-radius: 16px;
   border: none;
   right: 108px;
-  top: 126px;
+  top: 140px;
   z-index: -1;
+}
+
+.header__buttons {
+  display: flex;
+  column-gap: 16px;
+  padding: 0;
+}
+
+.header__button {
+  list-style-type: none;
 }
